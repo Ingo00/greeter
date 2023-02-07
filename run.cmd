@@ -1,1 +1,1 @@
-java Main
+java -cp src Main

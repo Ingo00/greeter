@@ -1,4 +1,3 @@
-package src;
 
 public class Greeter {
 
@@ -14,9 +13,9 @@ public class Greeter {
 
 	public String greet() {
 		switch (language) {
-		case Language.ENGLISH:
+		case ENGLISH:
 			return "Hello world!";
-		case Language.GERMAN:
+		case GERMAN:
 			return "Hallo Welt!";
 		default:
 			return "UNKOWN LANGUAGE";
